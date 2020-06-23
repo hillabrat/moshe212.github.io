@@ -1,9 +1,10 @@
 var slider = new KeenSlider("#my-keen-slider", {
   spacing: 10,
-  slidesPerView: 1,
+  slidesPerView: 2,
   centered: true,
   loop: true,
   mode: "snap",
+  dragSpeed: 10,
   breakpoints: {
     "(min-width: 768px)": {
       slidesPerView: 2,
